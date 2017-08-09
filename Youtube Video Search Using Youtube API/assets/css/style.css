@@ -1,0 +1,65 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.jumbotron.black {
+    background: #333;
+    color: #fff;
+}
+.custom h5 {
+    padding-top: 30px;
+    min-height: 100px;
+}
+.singleitem {
+    background: #fff;
+    border-radious:5px;
+}
+.singleitem img {
+    width: 140px;
+    position: relative;
+}
+
+.singleitem .text {
+    position: absolute;
+    padding-left: 158px;
+    width: 344px;
+}
+.text a{
+    color: #333;
+} 
+.text h4 {font-size: 14px;margin-top: -75px;}
+
+.singleitem {
+    padding-bottom: 25px;
+    padding: 10px;
+    background: #ddd;
+    -webkit-box-shadow: inset h v blur spread rgba(0, 0, 0, .5);
+    box-shadow: inset h v blur spread rgba(0, 0, 0, .5);
+}
